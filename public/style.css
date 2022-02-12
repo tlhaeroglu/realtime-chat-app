@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(70, 70, 70); 
+    
+  }
+::-webkit-scrollbar-thumb {
+    background: #242424; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(12, 12, 12); 
+}
+
+
+body{
+    background-color: rgb(22, 22, 22) !important;
+    color: white !important;
+    font-family: 'Comfortaa', cursive !important;
+}
+
+svg{
+    position: absolute;
+}
+
+.container{
+    height: 300px;
+    padding: 5px 60px;
+}
+.p{
+    margin: 10px !important;
+}
+
+.chat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.board{
+    width: 90%;
+    height: 275px;
+    background-color: rgb(31, 31, 31) !important;
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.msg-name{
+    color: rgb(69, 69, 248);
+}
+
+button{
+    background-color: rgb(69, 69, 248);
+    border: none;
+    border-radius: 20px !important;
+    padding: 7px 20px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.753);
+    color: rgb(69, 69, 248);
+}
+
+.inputs{
+    width:50%;
+    margin: 60px 0px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.inputs input{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.559);
+    border-radius: 20px;
+    padding: 3px 10px;
+    color: #fff;
+}
